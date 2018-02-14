@@ -1,0 +1,39 @@
+
+.bg
+{
+	background-image:url('https://image.shutterstock.com/z/stock-photo-high-resolution-feedback-concept-193135049.jpg');
+	height:1000px;
+	margin-top:-20px;
+}
+
+#mainNavBar
+{
+/* 	background-color:black;
+	font-color:#8181dd; */
+	cursor:pointer
+}
+
+body
+{
+	min-width: 1000px;
+	min-height:1000px;
+
+}
+
+.text-headline {
+    font-size: 40px;
+    line-height: 64px;
+    font-weight: 500;
+    margin: 32px 0;
+}
+.text-headline
+{
+	margin-left:10px;
+	font-size: 20px;
+    font-weight: 500;
+    color: #1976d2;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+

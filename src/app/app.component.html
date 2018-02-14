@@ -1,0 +1,55 @@
+<!-- <!--The content below is only a placeholder and can be replaced.-->
+<link data-require="bootstrap-css@3.3.6" data-semver="3.3.6" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<body>
+<div>
+ <nav id="mainNavBar" class="navbar navbar-inverse">
+ <div class="container-fluid">
+ <div class="navbar-header">
+ <a class="navbar-brand" href="/">
+ <fa name="envelope" animation="none"></fa>
+ Feedback Box</a></div>
+<ul class="nav navbar-nav" style="margin-left:10px;display: -webkit-inline-box;">
+ <li style="margin-left:-50px;"><a (click)="register()"><span class="glyphicon"></span>Student</a></li>
+ <li><a (click)="register()"><span class="glyphicon"></span>Professors</a></li>
+ <li><input class="aria-search" style="margin-top:10px;" placeholder="Search" type="search"></li>
+ <li><a (click)="register()"><span class="glyphicon glyphicon-user"></span> Sign up</a></li>
+ <li><a id="loginClick" (click)="login()"><span class="glyphicon glyphicon-log-in"></span> Login</a></li></ul></div>
+ </nav>
+</div>
+<div class="">
+    <a routerLink="/inventions"></a> &nbsp; &nbsp;&nbsp; &nbsp;
+    <hr>
+    <router-outlet></router-outlet>
+    <div layout="column">
+    <div class="container text-block">
+          <div class="text-headline">ONE PLACE TO PROVIDE FEEDBACKS FOR ALL</div>
+          &nbsp;&nbsp;&nbsp;Get Started.
+    </div>
+    <!-- <div class="container text-block">
+          <div class="text-headline">ONE PLACE TO PROVIDE FEEDBACKS FOR ALL</div>
+          <p class="text-body">This is a very easy and convenient way to provide feedbacks to all your courses and professors who teach the courses.
+          </p>
+    </div>
+    <div class="container text-block">
+          <div class="text-headline">ONE PLACE TO PROVIDE FEEDBACKS FOR ALL</div>
+          <p class="text-body">This is a very easy and convenient way to provide feedbacks to all your courses and professors who teach the courses.
+          </p>
+    </div>
+    <div class="container text-block">
+          <div class="text-headline">ONE PLACE TO PROVIDE FEEDBACKS FOR ALL</div>
+          <p class="text-body">This is a very easy and convenient way to provide feedbacks to all your courses and professors who teach the courses.
+          </p>
+    </div> -->
+    </div>
+</div>
+
+ <div id="footer">
+      <div class="container">
+        <br/><p class="text-muted credit">Contact us through our <a href="#">mail</a> or through our <a href="#">facebook page</a>.</p>
+        <p class="text-muted credit">If you would like to work with us, visit our careers page.
+      <br/></div>
+    </div>
+    
+    
+</body>
